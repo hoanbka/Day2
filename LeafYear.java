@@ -2,14 +2,11 @@ package day2;
 
 import java.util.Scanner;
 
-public class LeafYear {
+public class LeapYear {
 
 	static boolean calculateLeafYear(int year) {
 		boolean isLeapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0));
-		if (isLeapYear) {
-			return true;
-		} else
-			return false;
+		return isLeapYear;
 	}
 
 	public static void main(String[] args) {

@@ -16,9 +16,9 @@ public class BMI {
 		System.out.println("BMI index of " + name);
 		if (bmi < 18.5) {
 			System.out.println(" Thieu can");
-		} else if ((bmi >= 18.5) && (bmi < 25)) {
+		} else if (bmi < 25) {
 			System.out.println("Ly tuong");
-		} else if ((bmi >= 25) && (bmi <= 30)) {
+		} else if (bmi <= 30) {
 			System.out.println("Thua can");
 		} else
 			System.out.println("Beo phi");
